@@ -33,8 +33,10 @@ static const Rule rules[] = {
 	 */
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
-	{ "Telegram",  NULL,       NULL,       1 << 1,       0,           -1 },
+	{ "Telegram",  NULL,       NULL,       1 << 2,       0,           -1 },
 	{ "librewolf",  NULL,       NULL,       1 << 0,       0,           -1 },
+	{ "Blueberry.py",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "code-oss",  NULL,       NULL,       1 << 1,       0,           -1 },
 };
 
 /* layout(s) */
