@@ -41,7 +41,7 @@ static const Rule rules[] = {
 	{ "Tmux",       NULL,       NULL,            0,       0,            1,              0,                -1 },
 	{ "st",         NULL,       NULL,            0,       0,            1,              0,                -1 },
 	{ "code-oss",   NULL,       NULL,       1 << 1,       0,            0,              0,                -1 },
-+	{ NULL,         NULL,       "Event Tester",  0,       0,            0,              1,                -1 }, /* xev */
+    { NULL,         NULL,       "Event Tester",  0,       0,            0,              1,                -1 }, /* xev */
 };
 
 /* layout(s) */
